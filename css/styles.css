@@ -1,0 +1,149 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+p {
+  line-height: 2;
+}
+a {
+  margin: 10px 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+a:hover, a:focus, a:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 120px;
+}
+
+.profile {
+  padding-bottom: 50px;
+}
+.skills {
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+
+}
+.contact-me {
+  padding-top: 50px;
+/*  padding-bottom: 100px; */
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+.gif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.brownies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.sami-img {
+  width: 200px;
+  height: 200px;
+}
+.insta {
+  height: 30px;
+  width: 30px;
+}
+.Linkedin {
+  height: 30px;
+  width: 30px;
+}
+.btn {
+  color: #66BFBF;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.outro {
+  padding-bottom: 50px;
+}
+
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 43px;
+   line-height: 43px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   width: 193px;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 0;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
